@@ -1,5 +1,6 @@
 import { Users } from "../../dummyData"
 import Online from "../online/Online"
+import Profile from "./../../pages/profile/Profile"
 import "./rightbar.css"
 
 const HomeRightbar = () => {
@@ -114,7 +115,7 @@ export default function Rightbar() {
   return (
     <div className="rightbar">
       <div className="rightbarWrapper">
-        <ProfileRightbar />
+        {Profile ? <ProfileRightbar /> : <HomeRightbar />}
       </div>
     </div>
   )

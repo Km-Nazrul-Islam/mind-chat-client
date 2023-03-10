@@ -12,13 +12,11 @@
 .profileCover {
   height: 320px;
   position: relative;
-  top: 30px;
-  margin-bottom: 80px;
 }
 
 .profileCoverImg {
   width: 100%;
-  height: 350px;
+  height: 250px;
   object-fit: cover;
 }
 
@@ -28,17 +26,27 @@
   border-radius: 50%;
   object-fit: cover;
   position: absolute;
-  left: 20px;
+  left: 0;
   right: 0;
-  top: 280px;
+  margin: auto;
+  top: 150px;
   border: 2px solid gray;
 }
 
 .profileInfo {
-  margin-left: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .profileInfoName {
-  font-size: 18px;
+  font-size: 24px;
   color: #333333;
+}
+
+.profileInfoDetails {
+  font-weight: 300;
+  color: #333333;
+  margin-bottom: 10px;
 }

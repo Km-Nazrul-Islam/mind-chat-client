@@ -40,6 +40,54 @@
   color: gray;
 }
 
+/*ProfileRightbar css added*/
+.rightbarTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.rightbarInfo {
+  margin-bottom: 30px;
+}
+
+.rightInfoItem {
+  margin-bottom: 10px;
+}
+
+.rightbarInfoKey {
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 20px;
+  color: #2a2d2e;
+}
+
+.rightbarInfoValue {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2a2d2e;
+}
+
+.rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rightbarFollowing {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.rightbarFollowingImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
 /*If you want, U can cut the css and peast online.css*/
 .rightbarFriend {
   display: flex;
